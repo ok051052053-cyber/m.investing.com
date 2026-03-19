@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post | MM Investing</title>
+  <meta name="description" content="Single article page for MM Investing Blog." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="top-strip compact">
+    <div class="container top-strip-inner">
+      <span class="breaking-label">Breaking News</span>
+      <div class="ticker-wrap"><div class="ticker" id="ticker"></div></div>
+    </div>
+  </div>
+
+  <header class="site-header article-shell-header">
+    <div class="container header-main">
+      <a class="brand" href="index.html">
+        <span class="brand-mm">MM</span><span class="brand-name">Investing</span>
+      </a>
+      <nav class="header-actions">
+        <a href="index.html">Blog</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article-page container">
+    <article class="article-layout">
+      <div class="article-main">
+        <nav class="breadcrumb" id="breadcrumb"></nav>
+        <h1 class="article-title" id="articleTitle"></h1>
+        <div class="article-meta" id="articleMeta"></div>
+        <img id="articleImage" class="article-image" alt="Article cover" />
+        <div class="article-prose" id="articleBody"></div>
+      </div>
+      <aside class="article-side">
+        <div class="sidebar-card">
+          <div class="sidebar-title">Related Posts</div>
+          <div class="mini-list" id="relatedPosts"></div>
+        </div>
+      </aside>
+    </article>
+  </main>
+
+  <footer class="site-footer slim-footer">
+    <div class="container footer-bottom">
+      <div>© 2026 MM Investing</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/post.js"></script>
+</body>
+</html>

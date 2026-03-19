@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MM Investing Blog</title>
+  <meta name="description" content="Finance media style static blog template for GitHub Pages." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="top-strip">
+    <div class="container top-strip-inner">
+      <span class="breaking-label">Breaking News</span>
+      <div class="ticker-wrap"><div class="ticker" id="ticker"></div></div>
+      <div class="top-strip-actions">
+        <a href="#">Flash Sale</a>
+        <a href="#">Sign In / Free Sign Up</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-main">
+      <a class="brand" href="index.html" aria-label="MM Investing home">
+        <span class="brand-mm">MM</span><span class="brand-name">Investing</span>
+      </a>
+      <nav class="header-actions">
+        <a href="#">My Watchlist</a>
+        <a href="#">News</a>
+        <a href="#">Analysis</a>
+        <a href="#">Charts</a>
+        <a href="#">Technical</a>
+        <a href="#">Brokers</a>
+      </nav>
+    </div>
+    <div class="header-subnav">
+      <div class="container subnav-inner">
+        <a href="category.html?slug=markets">Markets</a>
+        <a href="category.html?slug=stocks">Stocks</a>
+        <a href="category.html?slug=commodities">Commodities</a>
+        <a href="category.html?slug=crypto">Crypto</a>
+        <a href="category.html?slug=currencies">Currencies</a>
+        <a href="category.html?slug=etfs">ETFs</a>
+        <a href="category.html?slug=funds">Funds</a>
+        <a href="category.html?slug=bonds">Bonds</a>
+        <a href="category.html?slug=blog">Blog</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="promo-bar">
+    <div class="container promo-inner">
+      <span>🎯 Flash Sale: 55% off MM Investing Pro. Get answers in seconds, not hours.</span>
+      <a href="#">Claim Sale</a>
+    </div>
+  </div>
+
+  <main class="page-main">
+    <section class="page-hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Company Blog</p>
+        <h1>MM Investing Blog</h1>
+        <p class="hero-text">MM Investing company blog covering product updates, editor notes, platform launches and finance content experiments from the MM Investing team.</p>
+      </div>
+    </section>
+
+    <section class="container layout-grid">
+      <div class="content-col">
+        <div class="section-header">
+          <h2>Latest from the blog</h2>
+          <div class="filter-tabs" id="filterTabs"></div>
+        </div>
+        <div class="post-list" id="postList"></div>
+        <div class="pagination" id="pagination"></div>
+      </div>
+
+      <aside class="sidebar-col">
+        <div class="sidebar-card">
+          <div class="sidebar-title">What’s New</div>
+          <div class="mini-list" id="latestMini"></div>
+        </div>
+        <div class="sidebar-card">
+          <div class="sidebar-title">Popular Analysis</div>
+          <div class="mini-list" id="popularMini"></div>
+        </div>
+        <div class="sidebar-card signup-card">
+          <div class="sidebar-title">Stay connected</div>
+          <p>Get new posts and product updates in your inbox.</p>
+          <form class="signup-form">
+            <input type="email" placeholder="Email address" />
+            <button type="button">Subscribe</button>
+          </form>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div>
+        <div class="footer-brand">MM Investing</div>
+        <div class="footer-links">
+          <a href="index.html">Blog</a>
+          <a href="about.html">About Us</a>
+          <a href="#">Mobile</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Widgets</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-heading">Follow us</div>
+        <div class="footer-links">
+          <a href="#">X</a>
+          <a href="#">YouTube</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Telegram</a>
+        </div>
+      </div>
+    </div>
+    <div class="container risk-box">
+      <p><strong>Risk Disclosure:</strong> Trading in financial instruments and or cryptocurrencies involves high risks including the risk of losing some or all of your investment amount and may not be suitable for all investors.</p>
+      <p>Before deciding to trade in financial instruments or cryptocurrencies you should be fully informed of the risks and costs associated with trading the financial markets carefully consider your investment objectives level of experience and risk appetite and seek professional advice where needed.</p>
+      <p>The data and prices on this website are not necessarily provided by any market or exchange and may be provided by market makers. Prices may not be accurate and may differ from actual market prices.</p>
+    </div>
+    <div class="container footer-bottom">
+      <div>© 2026 MM Investing. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Risk Warning</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
